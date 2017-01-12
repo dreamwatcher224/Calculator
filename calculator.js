@@ -6,6 +6,9 @@ function d(val) {
 }
 //  Type numbers and operators
 function v(val) {
+	if(val == "%") {
+		
+	}
 	document.getElementById("d").value += val;
 }
 
